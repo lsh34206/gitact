@@ -7,7 +7,7 @@ on:
 
 env:
   AWS_REGION: ap-northeast-2
-  ECR_REPOSITORY: userXX-webapp   # ★ XX를 본인 번호로 변경 (1단계에서 만든 이름)
+  ECR_REPOSITORY: escn-webapp   # ★ XX를 본인 번호로 변경 (1단계에서 만든 이름)
 
 jobs:
   build:
